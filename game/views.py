@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.forms import ModelForm
 from game.models import Game
-import datetime
+
 # Create your views here.
 def new(request):
     class GameForm(ModelForm):
