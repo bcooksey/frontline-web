@@ -9,7 +9,6 @@ def new(request):
             model = Game
             fields = ['title']
 
-
     form = GameForm()
     context = { 'gameForm': form.as_p() }
 
