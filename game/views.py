@@ -15,7 +15,7 @@ def new(request):
     if request.method == 'POST':
 
         game = GameForm(request.POST)
-
+#test
         if game.is_valid():
             game.save()
             context['game'] = game.data['title']
